@@ -43,7 +43,7 @@ def test_circle():
     """
     r = 23
     # TODO сосчитайте площадь
-    area = math.pi * r.__pow__(2)
+    area = math.pi * pow(r,2)
 
     assert area == 1661.9025137490005
     print(f"\nПлощадь круга = {area}")
@@ -104,4 +104,3 @@ def test_dicts():
     assert len(d) == 5
     assert list(d.keys()) == first
     assert list(d.values()) == second
-    pprint(d)
